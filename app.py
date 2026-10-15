@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 #Cargamos el excel de Pases vs Yardas.
-df = pd.read_excel("YARDAS_PASOS_DATOS_TICS (1).xlsx",index_col=0)
+df = pd.read_excel("YARDAS_PASOS_DATOS_TICS.xlsx",index_col=0)
 
 #Visualizar los primeros 5 datos de mi base de datos
 st.dataframe(df.head())
